@@ -8,7 +8,7 @@
     let innerWidth = 0
 
     function goTop() {
-        document.body.scrollIntoView
+        document.body.scrollIntoView();
     }
 </script>
 
@@ -16,7 +16,7 @@
     <div class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " + (
         y > 0 ? 'opacity-full pointer-event-auto': 'pointer-event-none opacity-0'
         )}>
-        <button on:click={goTop} class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 curser-pointer">
+        <button on:click={goTop} class="ml-auto rounded-full aspect-square bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 curser-pointer">
             <i class="fa-solid fa-arrow-up grid place-item-center aspect-square"></i>
         </button>
     </div>
