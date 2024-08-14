@@ -2,6 +2,8 @@
   import "../app.css";
     import Footer from "../components/Footer.svelte";
     import Header from "../components/Header.svelte";
+ 
+
 
     let y;
     let innerHeight = 0
@@ -11,6 +13,7 @@
         document.body.scrollIntoView();
     }
 </script>
+
 
 <div class="relative flex flex-col max-w[1400px] mx-auto w-full text-sm sm:text-base min-h-screen">
     <div class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " + (
