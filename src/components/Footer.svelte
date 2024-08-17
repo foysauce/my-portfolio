@@ -19,7 +19,7 @@
         <p><b class="pr-2">Email</b> matthewrfoy@gmail.com</p>
         <p>
             <b class="pr-2">GitHub</b>
-            <a href=" " target="_blank" class="text-violet-400"
+            <a href="https://github.com/foysauce" target="_blank" class="text-violet-400"
                 >matthewrfoy<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -31,8 +31,8 @@
         </p>
         <p>
             <b class="pr-2">LinkedIn</b>
-            <a href=" " target="_blank" class="text-violet-400"
-                >samuel_oak<sup class=""
+            <a href="https://www.linkedin.com/in/mrfoy/" target="_blank" class="text-violet-400"
+                >matthew_foy<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
