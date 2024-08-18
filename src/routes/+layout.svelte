@@ -2,6 +2,7 @@
   import "../app.css";
     import Footer from "../components/Footer.svelte";
     import Header from "../components/Header.svelte";
+    import Sidebar from "../components/Sidebar.svelte";
  
 
 
@@ -24,8 +25,12 @@
         </button>
     </div>
     <Header y={y}/>
+    <Sidebar />
     <slot />
+
     <Footer/>
 </div>
+
+
 
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth/>
